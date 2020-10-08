@@ -1,0 +1,26 @@
+{
+    "resourceType": "Patient",
+    "id": "p2",
+    "active": true,
+    "name": [
+      {
+        "family": "Santos",
+        "given": [
+          "Silvio"
+        ]
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1900-01-01",
+    "address": [
+      {
+        "line": [
+          "Rua dos Bobos #1"
+        ],
+        "city": "Campinas",
+        "state": "SP",
+        "postalCode": "13000",
+        "country": "BR"
+      }
+    ]
+  }

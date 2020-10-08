@@ -1,0 +1,26 @@
+{
+    "resourceType": "Patient",
+    "id": "p1",
+    "active": true,
+    "name": [
+      {
+        "family": "Goncalves",
+        "given": [
+          "Dercy"
+        ]
+      }
+    ],
+    "gender": "female",
+    "birthDate": "0001-05-27",
+    "address": [
+      {
+        "line": [
+          "Rua dos Bobos #0"
+        ],
+        "city": "Campinas",
+        "state": "SP",
+        "postalCode": "13000",
+        "country": "BR"
+      }
+    ]
+  }

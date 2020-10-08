@@ -1,0 +1,30 @@
+{
+    "class": {
+      "code": "IMP",
+      "display": "inpatient encounter",
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+    },
+    "id": "e1",
+    "resourceType": "Encounter",
+    "status": "finished",
+    "subject": {
+      "reference": "Patient/p1"
+    },
+    "participant": [
+        {
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                  "code": "PART"
+                }
+              ]
+            }
+          ],
+          "individual": {
+            "reference": "PractitionerRole/practrole1"
+          }
+        }
+      ]
+  }

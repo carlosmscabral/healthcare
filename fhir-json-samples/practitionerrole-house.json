@@ -1,0 +1,35 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "practrole1",
+    "active": true,
+    "period": {
+      "start": "2012-01-01",
+      "end": "2030-03-31"
+    },
+    "practitioner": {
+      "reference": "Practitioner/p1",
+      "display": "Greg House MD"
+    },
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "408443003",
+            "display": "General medical practice"
+          }
+        ]
+      }
+    ],
+    "availableTime": [
+      {
+        "daysOfWeek": [
+          "mon",
+          "tue",
+          "wed"
+        ],
+        "availableStartTime": "09:00:00",
+        "availableEndTime": "16:30:00"
+      }
+    ]
+  }

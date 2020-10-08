@@ -1,0 +1,28 @@
+{
+    "resourceType": "Practitioner",
+    "id": "pract1",
+    "name": [
+      {
+        "family": "House",
+        "given": [
+          "Greg"
+        ],
+        "suffix": [
+          "MD"
+        ]
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "line": [
+          "Galapagosweg 91"
+        ],
+        "city": "Campinas",
+        "postalCode": "13000",
+        "country": "BRZ"
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1971-11-07"
+  }
